@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.Header {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    background-color: #A02334;
+    color: white;
+}
+
+.h21 {
+    font-weight: 700;
+    color: white;
+}
+
+.icon1, .icon2 {
+    margin-left: 20px;
+}
+
+.Section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    background-color: #fff8f0;
+}
+
+.food {
+    font-size: 60px;
+    color: #9A031E;
+    margin-bottom: 20px;
+}
+
+hr {
+    opacity: 50%;
+}
+
+img {
+    width: 800px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+.text-and-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#btn {
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: #A02334;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signature-dish {
+    padding: 50px 100px;
+    background-color: #fff3e0;
+    text-align: center;
+}
+
+.signature-dish h3 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #9A031E;
+}
+
+.signature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.signature-cards .card-1, .signature-cards .card-2, .signature-cards .card-3 {
+    width: 200px;
+    text-align: center;
+}
+
+.signature-cards .card-1 img, .signature-cards .card-2 img, .signature-cards .card-3 img {
+    width: 100%;
+    border-radius: 50%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.signature-cards h4 {
+    margin-top: 20px;
+    color: #A02334;
+}
+
+.cards-section {
+    padding: 50px 100px;
+    background-color: #ffeed6;
+    text-align: center;
+}
+
+.cards-section h3 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #9A031E;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h4 {
+    margin: 0;
+    margin-bottom: 10px;
+    color: #A02334;
+}
+
+.card-content p {
+    color: #555;
+}
+
+footer {
+    background-color: #A02334;
+    color: white;
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.footer-content p {
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.footer-content .socials {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-content .socials li {
+    display: inline-block;
+}
+
+.footer-content .socials li a {
+    color: white;
+    font-size: 24px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}
